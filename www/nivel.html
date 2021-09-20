@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- GoogleFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/24cb2eafe1.js" crossorigin="anonymous"></script>
+    
+    <style>
+        body{
+        
+            background-color: red;
+        }
+        #icon{
+            color: white;
+            padding-top: 4vw ;
+            display: flex;
+            justify-content: center;
+        }
+        .h1login{
+            margin-top: 5vw;
+            margin-left: 10%;
+            color: white;
+            letter-spacing: 2px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+        #nome{
+            height: 40px;
+            width: 60%;
+            margin-left: 20%;
+
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            letter-spacing: 2px;         
+        }
+        #nome::placeholder {
+            color: white;
+        }
+        #field{
+            height: 40px;
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 1vw;
+
+            
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            letter-spacing: 2px;
+      
+          
+        }
+        #field::placeholder {
+            color: white;
+        }
+        .b2{
+            height: 40px;
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 1vw;
+
+            background: white;
+            color: red;
+            border-radius: 20px;
+            border: 2px solid white;
+            text-decoration-style: none;
+            cursor: pointer;
+            letter-spacing: 2px;
+        }
+        .b2:hover{
+            background-color: red;
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <thead>
+            <i class="fab fa-drupal fa-10x" id="icon"></i>
+            <h1 class="h1login">Cadastrar Nível</h1>
+        </thead>
+        <tbody>
+            <form action="">
+                <input class="field" type="text" name="nome" id="nome" placeholder="Nome do Nível"><br>       
+                <span id="saida" style="color:red;"></span>
+                <button class="b2">CADASTRAR</button>
+                
+            </form>
+        </tbody>
+    </div>
+</body>
+</html>
